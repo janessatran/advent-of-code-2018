@@ -30,7 +30,7 @@ Starting with a frequency of zero, what is the resulting frequency after all of 
 import pandas as pd
 import numpy as np
 
-data = pd.read_csv('day1_freqs.txt', sep=" ", header=None)
+data = pd.read_csv('data/ay1_freqs.txt', sep=" ", header=None)
 data.columns = ["frequency"]
 answer = sum(data['frequency']
 print(answer)
