@@ -54,7 +54,7 @@ Current frequency  2, change of +1; resulting frequency  3.
 Current frequency  3, change of +1; resulting frequency  4.
 Current frequency  4, change of -2; resulting frequency  2, which has already been seen.
 In this example, the first frequency reached twice is 2. Note that your device might need to repeat its list of frequency changes many times before a duplicate frequency is found, and that duplicates might be found while in the middle of processing the list.
-""
+"""
 
 
 def first_duplicate(vals):
